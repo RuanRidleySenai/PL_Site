@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+
+    /*Cores*/
+    --text--collor: #fff;
+    --background--menu:#37003C;
+    --letras--menu:#777770;
+
+}
+body{
+   font-size: 100%;
+   background-color: aliceblue;
+   width: 100%;
+
+}
+/*Estilizand o cabeçalho*/
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background--menu);
+
+}
+#LogoPL{
+    width: 90px;
+    padding: 15%;
+}
+.link_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 22px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: var(--text--collor);
+}
+.botão_sign{
+    width: 100px;
+    height: 40px;
+    border-radius: 05px;
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#text_racism{
+    justify-content: start;
+    color: var(--text--collor);
+}
+/*Estilizando o menu de pesquisa*/
+.menu_pesquisa{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #777770;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+a:hover{
+    font-weight: bold;
+    color: #37003C;
+    transform: translate(5px);
+}
+/*Estilizando a parte da tabela*/
+.Days{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0px 100px;
+    
+}
+.logo_tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+#logo_leao_tab{
+    height:30px;
+    width:30px;
+    margin: 0px 10px;
+}
+.Games{
+    display:flex;
+    justify-content: space-between;
+}
+.tab_confronto{
+    display: flex;
+    justify-content: space-between;
+}
