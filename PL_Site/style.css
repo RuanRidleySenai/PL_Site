@@ -95,5 +95,32 @@ a:hover{
 }
 .tab_confronto{
     display: flex;
+    justify-content: space-around;
+}
+.area_confrontos{
+    display: flex;
+    justify-items: center;
+}
+.time_casa{
+    display: flex;
     justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+}
+
+.time_visitante{
+    display: flex;
+    align-items: ;
+    justify-content:space-around;
+    padding: 0px 25px 0px 25px;
+}
+
+
+
+.botao_assistir{
+    
+    width: 25px;
+    height: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #fff;
 }
