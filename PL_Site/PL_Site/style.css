@@ -1,0 +1,156 @@
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    transition: 0.9s;
+  }
+  
+  body:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #230226;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover no Título H2 */
+  h2:hover {
+    color:#37003c; /* Destaca o título em amarelo */
+  }
+  
+  /* Container Principal */
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover no Container */
+  .container:hover {
+    background-color: #ffffff; /* Fundo branco ao passar o mouse */
+    transform: scale(1.01); /* Leve ampliação */
+  }
+  
+  /* Cabeçalho da Seção de Resultados */
+  .results-header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #37003c;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .results-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #37003c;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover no Título de Resultados */
+  .results-title:hover {
+    color: #ffdd00; /* Amarelo no hover */
+  }
+  
+  /* Logo e Texto no Cabeçalho */
+  .brand-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .brand-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #37003c;
+    transition: color 0.3s ease;
+  }
+
+  /* Bloco de Jogos */
+  .match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .match:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Equipes */
+  .team {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #37003c;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover no Nome do Time */
+  .team:hover span {
+    color:#0c4f78;
+  }
+  
+  /* Placar */
+  .score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #37003c;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover no Placar */
+  .score:hover {
+    color: #0c4f78;
+  }
+  
+  /* Rodapé */
+  .main-footer {
+    font-size: 14px;
+    background-color: #37003c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover no Rodapé */
+  .main-footer:hover {
+    background-color: #4b004e;
+  }
+  
