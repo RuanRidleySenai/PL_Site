@@ -1,0 +1,110 @@
+.apostas {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.campeonato {
+  margin-bottom: 30px;
+}
+
+.apostas-container, .apostas-variadas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aposta {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.confronto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.odds {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+button.btn-odd {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-odd:hover {
+  background-color: #218838;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.apostas-variadas .odds button {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .aposta {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
